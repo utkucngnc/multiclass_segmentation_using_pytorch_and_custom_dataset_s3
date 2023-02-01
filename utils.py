@@ -25,10 +25,10 @@ model_path = f'{work_dir}/model.pth'
 num_epoch = 10
 device = dev()
 
-bucket_name = "measuringobjects.p108"
-access_key = 'minioadmin'
-secret_key = 'minioadmin'
-ip = '192.168.100.222:9000'
+bucket_name = ""
+access_key = ''
+secret_key = ''
+ip = ''
 
 def connect():
     client = Minio(ip,
